@@ -5,7 +5,7 @@ name: CI
 # Controls when the workflow will run
 on: run
   # Triggers the workflow on push or pull request events but only for the master branch
-  push:
+  push: on
     branches: [ master ]
   pull_request:
     branches: [ master ]
